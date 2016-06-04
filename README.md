@@ -1,4 +1,6 @@
 # webpack-chunks-api-plugin
+[![npm](https://img.shields.io/npm/v/webpack-chunks-api-plugin.svg)](https://www.npmjs.com/package/webpack-chunks-api-plugin)
+
 webpack plugin to make chunk information available to the bundle via `__webpack_chunks__`
 
 ### Installation
