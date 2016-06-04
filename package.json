@@ -1,6 +1,6 @@
 {
   "name": "webpack-chunks-api-plugin",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "webpack plugin to make chunk information available to the bundle via __webpack_chunks__",
   "main": "lib/index.js",
   "scripts": {
