@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "webpack-chunks-api-plugin example",
+  "main": "entry.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "webpack": "1.13.1",
+    "webpack-chunks-api-plugin": "file:..",
+    "webpack-dev-server": "1.14.1"
+  }
+}

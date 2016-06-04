@@ -1,0 +1,39 @@
+{
+  "name": "webpack-chunks-api-plugin",
+  "version": "0.0.0",
+  "description": "webpack plugin to make chunk information available to the bundle via __webpack_chunks__",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "develop": "babel src --watch --out-dir lib",
+    "lint": "eslint .",
+    "prepublish": "npm run build",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottsj/webpack-chunks-api-plugin.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Spencer Elliott <me@elliottsj.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elliottsj/webpack-chunks-api-plugin/issues"
+  },
+  "homepage": "https://github.com/elliottsj/webpack-chunks-api-plugin#readme",
+  "devDependencies": {
+    "babel-cli": "6.9.0",
+    "babel-eslint": "6.0.4",
+    "babel-preset-es2015": "6.9.0",
+    "babel-preset-stage-2": "6.5.0",
+    "eslint": "2.11.1",
+    "eslint-config-airbnb-base": "3.0.1",
+    "eslint-plugin-import": "1.8.1",
+    "webpack": "1.13.1"
+  },
+  "peerDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
