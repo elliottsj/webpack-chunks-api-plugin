@@ -42,12 +42,15 @@ export default class ChunksApiPlugin {
            * function, which appends the loaded chunk info to `__webpack_requre__.c`
            */
           return this.asString([
-            'var isInstalled = !!installedChunks[chunkId];',
             '(function loadChunk(callback) {',
             this.indent(source),
             '}(function() {',
             this.indent([
-              'if (!isInstalled) {',
+              `if (${this.requireFn}.c.filter(function (chunk) {`,
+              this.indent([
+                'return chunk.id === chunkId;',
+              ]),
+              '}).length !== 0) {',
               this.indent([
                 `${this.requireFn}.c.push({`,
                 this.indent([
