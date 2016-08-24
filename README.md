@@ -1,4 +1,5 @@
 # webpack-chunks-api-plugin
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 [![npm](https://img.shields.io/npm/v/webpack-chunks-api-plugin.svg)](https://www.npmjs.com/package/webpack-chunks-api-plugin)
 
 webpack plugin to make chunk information available to the bundle via `__webpack_chunks__`
