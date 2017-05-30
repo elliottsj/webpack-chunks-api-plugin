@@ -1,4 +1,6 @@
 # webpack-chunks-api-plugin
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/elliottsj/webpack-chunks-api-plugin.svg)](https://greenkeeper.io/)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
 [![npm](https://img.shields.io/npm/v/webpack-chunks-api-plugin.svg)](https://www.npmjs.com/package/webpack-chunks-api-plugin)
 
